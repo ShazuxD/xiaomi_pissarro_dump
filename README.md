@@ -1,0 +1,20 @@
+## missi_phoneext4_global-user 13 TP1A.220624.014 V816.0.17.0.TKTMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: mt6877
+- Codename: pissarro
+- Brand: Redmi
+- Flavor: missi_phoneext4_global-user
+- Release Version: 13
+- Kernel Version: 4.14.186
+- Id: TP1A.220624.014
+- Incremental: V816.0.17.0.TKTMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: 440
+- Fingerprint: Redmi/vnd_pissarro/pissarro:12/SP1A.210812.016/V816.0.17.0.TKTMIXM:user/release-keys
+- OTA version: 
+- Branch: missi_phoneext4_global-user-13-TP1A.220624.014-V816.0.17.0.TKTMIXM-release-keys
+- Repo: redmi_pissarro_dump
