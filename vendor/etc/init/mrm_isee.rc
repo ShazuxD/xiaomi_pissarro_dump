@@ -1,0 +1,8 @@
+service vendor.isee.mrmd /vendor/bin/mrmd_isee
+    class hal
+    user system
+    group system shell
+    disabled
+
+on property:sys.boot_completed=1 && property:ro.boot.tee_type=2
+    start vendor.isee.mrmd

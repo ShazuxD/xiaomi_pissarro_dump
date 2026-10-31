@@ -1,0 +1,8 @@
+service vendor.mitee.mrmd /vendor/bin/mrmd_mitee
+    class hal
+    user system
+    group system shell
+    disabled
+
+on property:sys.boot_completed=1 && property:ro.boot.tee_type=1
+    start vendor.mitee.mrmd
